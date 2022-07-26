@@ -10,9 +10,10 @@
 #section3{
 	background: #696969;
 }
-section{
+#section1, #section2, #section3{
 	position:  relative;
   padding:  60px 15px 10px 15px;
+  border: 1px solid black;
 }
 h1{
 	text-align: center;
