@@ -1,0 +1,86 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #FCF8E8;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*HEADER*/
+#header-nav{
+	background-color: #94B49F;
+	border-radius: 0;
+	border: 0;
+}
+
+#header-nav{
+	background-color: #94B49F;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	color: #2C3333;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+    color: white;
+    text-align: center;
+    background: #0F3D3E;
+    border: 1px solid black;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #395B64;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    box-shadow: none;
+}
+/*END HEADER*/
+
+/*Main Content*/
+h2{
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#random-contents1, #random-contents2, #random-contents3{
+	background-color: #A5C9CA ;
+	color: black;
+	margin-bottom: 30px;
+}
+/*end of main content*/
+
+/*for devices whose width is greater than that of sm*/
+@media(min-width: 767px){
+	#header-nav{
+		height: 62px;
+	}
+
+}
